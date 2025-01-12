@@ -6,3 +6,5 @@ Reminder to get link to file:
 
 How to Host Files on Github: https://www.labnol.org/?p=29092
 
+Note: Developer inspect is disabled for force-installed inspections.  Change that with registry key:
+https://stackoverflow.com/questions/64954532/cant-open-inspect-in-forced-installed-chrome-extension
