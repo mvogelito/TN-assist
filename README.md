@@ -9,7 +9,12 @@ Then update the XML file (can do it right here) with the new version number and 
 Be sure to "Commit" after both of the above changes.
 That should be it.  No need to change anything in Workspace Admin console (as long as XML filename does not change).
 
+Settings in Workspace admin console: Devices > Chrome > Apps & Extensions > Groups: TN extension > yellow button to add extension
 App ID: cnjnlmeknckcmejjkjbhnalcgbabbimc
+Custom URL: https://github.com/mvogelito/TN-assist/blob/main/TN_Assist.xml?raw=true
+Installation policy: Force install and pin
+
+To force-install a local extension (not from Chrome store): see ChromeManagementFiles.  Windows users need to add registry key with token.  Mac users add text file to specific location (? or do they?  1xTx couldn't find the right folder but it was force-installed anyway).
 
 Reminder to get link to file: 
   1. Right-click file for download link.
