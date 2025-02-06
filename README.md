@@ -24,7 +24,7 @@ Note: Developer inspect is disabled for force-installed inspections.  Change tha
 https://stackoverflow.com/questions/64954532/cant-open-inspect-in-forced-installed-chrome-extension
 
 #### To update version
-Before doing this: Update manifest.json.  If this will be a LIVE version, then change the icon from red DEV icon to LIVE blue.  AND fix the version number.
+Before doing this: Update manifest.json.  If this will be a LIVE version, then change the icon from red DEV icon to LIVE blue.  AND fix the version number.  Note *no* leading zeros on version numbers!  version 0.3.01 is seen as 0.3.1
 In any chrome instance (extension doesn't need to be installed; can be any profile): manage extensions, upper-left button to pack extension.  Choose correct folder of extension, and choose the correct .PEM file (in PackagedFiles/ and choose either the LIVE or DEV one, depending on which version you're putting up).  This creates CRX file.  Rename CRX file (correct the version number and add "_DEV" if necessary.
 Then upload that file to this directory (soon to be relocated).  And edit the appropriate .XML file (DEV or plain (LIVE)): just change version number and the filename (version number).
 That should be it.
