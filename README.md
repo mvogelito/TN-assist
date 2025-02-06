@@ -18,7 +18,13 @@ App ID: cnjnlmeknckcmejjkjbhnalcgbabbimc
 Custom URL: https://github.com/mvogelito/TN-assist/blob/main/TN_Assist.xml?raw=true
 Installation policy: Force install and pin
 
-To force-install a local extension (not from Chrome store): see local folder ChromeManagementFiles.  Windows users need to add registry key with token.  Mac users add text file to specific location `/Library/Google/Chrome/` (? or do they?  1xTx couldn't find the right folder but it was force-installed anyway).
+To force-install a local extension (not from Chrome store): see local folder ChromeManagementFiles.  Windows users need to add registry key with token.  Mac users ?can? text file to specific location `/Library/Google/Chrome/` (though this doesn't seem necessary; 2 tx haven't needed that step).
 
 Note: Developer inspect is disabled for force-installed inspections.  Change that with registry key: (? does it work??)
 https://stackoverflow.com/questions/64954532/cant-open-inspect-in-forced-installed-chrome-extension
+
+#### To update version
+Before doing this: Update manifest.json.  If this will be a LIVE version, then change the icon from red DEV icon to LIVE blue.  AND fix the version number.
+In any chrome instance (extension doesn't need to be installed; can be any profile): manage extensions, upper-left button to pack extension.  Choose correct folder of extension, and choose the correct .PEM file (in PackagedFiles/ and choose either the LIVE or DEV one, depending on which version you're putting up).  This creates CRX file.  Rename CRX file (correct the version number and add "_DEV" if necessary.
+Then upload that file to this directory (soon to be relocated).  And edit the appropriate .XML file (DEV or plain (LIVE)): just change version number and the filename (version number).
+That should be it.
