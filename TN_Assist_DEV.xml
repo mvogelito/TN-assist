@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='afpgpocnpieahapckhgfipkbabjncfmj'>
-    <updatecheck codebase='https://github.com/mvogelito/TN-assist/blob/main/TN_Assist_v0p4p3_DEV.crx?raw=true' version='0.4.3' />
+    <updatecheck codebase='https://github.com/mvogelito/TN-assist/blob/main/TN_Assist_v0p4p4_DEV.crx?raw=true' version='0.4.4' />
   </app>
 </gupdate>
